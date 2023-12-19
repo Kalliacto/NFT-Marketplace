@@ -1,0 +1,75 @@
+{
+    "header": [
+        {
+            "title": "Marketplace",
+            "path": "/marketplace"
+        },
+        {
+            "title": "Rankings",
+            "path": "/rankings"
+        },
+        {
+            "title": "Connect a wallet",
+            "path": "/connect"
+        }
+    ],
+    "footer": [
+        {
+            "title": "NFT Marketplace",
+            "text": "NFT marketplace UI created with Anima for Figma.",
+            "icon": "storefront",
+            "info": [
+                {
+                    "text": "NFT marketplace UI created with Anima for Figma."
+                },
+                {
+                    "text": "Join our community"
+                }
+            ],
+            "contacts": [
+                {
+                    "link": "discord",
+                    "icon": "discord"
+                },
+                {
+                    "link": "youtube",
+                    "icon": "youtube"
+                },
+                {
+                    "link": "twitter",
+                    "icon": "twitter"
+                },
+                {
+                    "link": "instagram",
+                    "icon": "instagram"
+                }
+            ]
+        },
+        {
+            "title": "Explore",
+            "info": [
+                {
+                    "link": "Marketplace",
+                    "path": "/marketplace"
+                },
+                {
+                    "link": "Rankings",
+                    "path": "/rankings"
+                },
+                {
+                    "link": "Connect a wallet",
+                    "path": "/connect"
+                }
+            ]
+        },
+        {
+            "title": "Join our weekly digest",
+            "text": "Get exclusive promotions & updates straight to your inbox.",
+            "info": [
+                {
+                    "text": "Get exclusive promotions & updates straight to your inbox."
+                }
+            ]
+        }
+    ]
+}
