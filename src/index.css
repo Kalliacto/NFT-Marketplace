@@ -45,6 +45,8 @@ img {
 }
 button {
     cursor: pointer;
+    color: inherit;
+    font-family: inherit;
 }
 
 .container {
@@ -53,11 +55,15 @@ button {
     margin: 0 auto;
 }
 
+svg *[fill] {
+    fill: currentColor;
+}
+
 /* Планшеты
 @media (max-width: 960px) {
 }
  Мобильные устройства */
-/* @media (max-width: 720px) { */
+/* @media (max-width: 520px) { */
 /* } */
 /* @media (max-width: 380px) {
 }   */

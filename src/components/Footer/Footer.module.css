@@ -2,6 +2,7 @@
     background: var(--background-secondary-color);
     color: var(--secondary-text-color);
     padding: 40px 0;
+    border-top: 1px solid var(--background-color);
 }
 
 .footer__menu {
@@ -60,9 +61,13 @@
     font-size: 12px;
 }
 @media (max-width: 960px) {
+    .footer {
+        padding-top: 20px;
+    }
     .footer__menu {
         grid-template-columns: 1fr;
         gap: 30px;
+        padding-top: 0;
     }
 }
 
