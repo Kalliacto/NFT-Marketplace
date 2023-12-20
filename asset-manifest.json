@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/NFT-Marketplace/static/css/main.4e16d3c1.css",
+    "main.js": "/NFT-Marketplace/static/js/main.addc534d.js",
+    "static/media/DiscordLogo.svg": "/NFT-Marketplace/static/media/DiscordLogo.8177c8c1388b94d363f1f6ba613f0c7e.svg",
+    "static/media/YoutubeLogo.svg": "/NFT-Marketplace/static/media/YoutubeLogo.b7214031954d3ff9a9f01e7e90f9a25a.svg",
+    "static/media/RocketLaunch.svg": "/NFT-Marketplace/static/media/RocketLaunch.4984fd35aefa3fc9a2b659ace3cfb19e.svg",
+    "static/media/Eye.svg": "/NFT-Marketplace/static/media/Eye.aa4d389dd386f06e918486995b878be7.svg",
+    "static/media/Storefront.svg": "/NFT-Marketplace/static/media/Storefront.c8dfb81d49485c059ea932bfd7b46e7e.svg",
+    "static/media/User.svg": "/NFT-Marketplace/static/media/User.1400f21efcf4b50d36d0ce341923b8fd.svg",
+    "static/media/InstagramLogo.svg": "/NFT-Marketplace/static/media/InstagramLogo.29567931eaa838d0ad5612998ac9ce61.svg",
+    "static/media/BurgerMenu.svg": "/NFT-Marketplace/static/media/BurgerMenu.05a5f735aa57e5294f0208c584bc76e4.svg",
+    "static/media/TwitterLogo.svg": "/NFT-Marketplace/static/media/TwitterLogo.f89d14d7d600cc49c543362d7cd8ab36.svg",
+    "index.html": "/NFT-Marketplace/index.html",
+    "static/media/cross.svg": "/NFT-Marketplace/static/media/cross.3fa5044abaa4a523ed8ce142480d7cfa.svg",
+    "main.4e16d3c1.css.map": "/NFT-Marketplace/static/css/main.4e16d3c1.css.map",
+    "main.addc534d.js.map": "/NFT-Marketplace/static/js/main.addc534d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4e16d3c1.css",
+    "static/js/main.addc534d.js"
+  ]
+}
