@@ -69,7 +69,8 @@
                 {
                     "text": "Get exclusive promotions & updates straight to your inbox."
                 }
-            ]
+            ],
+            "btn": "true"
         }
     ]
 }

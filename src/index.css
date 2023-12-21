@@ -9,6 +9,7 @@
     --caption-labelText-color: #858584;
     --purple-btn-color: #a259ff;
     --gradient-color: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 100%);
+    --main-border-radius: 20px;
 }
 
 *,
@@ -51,8 +52,8 @@ button {
 
 .container {
     max-width: 1050px;
-    padding: 16px;
     margin: 0 auto;
+    padding: 0 20px;
 }
 
 svg *[fill] {

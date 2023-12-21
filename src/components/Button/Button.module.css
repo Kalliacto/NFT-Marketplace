@@ -1,12 +1,18 @@
 .btn {
+    width: 100%;
     padding: 19px 50px;
     background-color: var(--purple-btn-color);
     line-height: 71%;
     border: none;
-    border-radius: 20px;
+    border-radius: var(--main-border-radius);
     display: flex;
     align-items: center;
     gap: 12px;
+    font-size: 16px;
+    color: var(--main-text-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .btn_mini {

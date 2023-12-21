@@ -8,6 +8,7 @@
     width: 24px;
     height: 24px;
     align-self: flex-end;
+    cursor: pointer;
 }
 
 .burger__navigation_wrap {
