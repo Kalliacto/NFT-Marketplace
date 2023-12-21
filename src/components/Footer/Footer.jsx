@@ -3,6 +3,7 @@ import s from './Footer.module.css';
 import menu from '../../assets/data/menu.json';
 import { NavLink } from 'react-router-dom';
 import icons from '../../assets/img/icon';
+import SubscribeInput from '../Form/SubscribeInput';
 
 const Footer = () => {
     return (
@@ -46,6 +47,8 @@ const Footer = () => {
                                     </ol>
                                 )}
                             </ul>
+                            {}
+                            <div style={{ marginTop: '20px' }}>{el.btn && <SubscribeInput />}</div>
                         </div>
                     ))}
                 </nav>

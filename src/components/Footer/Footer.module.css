@@ -7,7 +7,7 @@
 
 .footer__menu {
     display: grid;
-    grid-template-columns: 1.2fr 1fr 1.5fr;
+    grid-template-columns: 1.2fr 0.8fr 1.8fr;
     font-family: 'Space Mono', monospace;
     line-height: 120%;
     padding: 40px 31px 30px 31px;
@@ -51,7 +51,7 @@
 
 .footer__developer {
     border-top: 1px solid var(--caption-labelText-color);
-    padding-top: 20px;
+    padding: 20px 15px 0 15px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -68,6 +68,9 @@
         grid-template-columns: 1fr;
         gap: 30px;
         padding-top: 0;
+    }
+    .footer__menu_item {
+        max-width: 420px;
     }
 }
 
