@@ -2,12 +2,17 @@ import React from 'react';
 import s from './Input.module.css';
 import Button from '../Button/Button';
 import mail from '../../assets/img/icon/EnvelopeSimple.svg';
+import cn from 'classnames';
 
-const SubscribeInput = (icon = false) => {
+const SubscribeInput = ({ mobile = false, icon = false }) => {
     return (
-        <div className={s.input__wrap}>
-            <input type='text' className={s.input} placeholder='Enter your email here' />
-            <div className={s.input__btn}>
+        <div className={cn(s.input__wrap, mobile && s.input__wrap_mobile)}>
+            <input
+                type='text'
+                className={cn(s.input, mobile && s.input_mobile)}
+                placeholder='Enter your email here'
+            />
+            <div className={cn(s.input__btn, mobile && s.input__btn_mobile)}>
                 <Button
                     title={'Subscribe'}
                     icon={mail}

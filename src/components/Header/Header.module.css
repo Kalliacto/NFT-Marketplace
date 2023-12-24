@@ -25,6 +25,7 @@
 }
 .header__navigation_li {
     padding: 12px 20px;
+    white-space: nowrap;
 }
 
 @media (max-width: 960px) {

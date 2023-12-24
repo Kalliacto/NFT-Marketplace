@@ -29,6 +29,10 @@
 }
 .btn_white {
     background: var(--main-text-color);
+    color: var(--background-color);
+    font-weight: 600;
+    line-height: 22.4px;
+    border: none;
 }
 
 .btn_icon {

@@ -4,8 +4,11 @@ import menu from '../../assets/data/menu.json';
 import { NavLink } from 'react-router-dom';
 import icons from '../../assets/img/icon';
 import SubscribeInput from '../Form/SubscribeInput';
+import useResize from '../../hooks/useResize';
 
 const Footer = () => {
+    const width = useResize();
+
     return (
         <footer className={s.footer}>
             <div className='container'>
@@ -48,7 +51,9 @@ const Footer = () => {
                                 )}
                             </ul>
                             {}
-                            <div style={{ marginTop: '20px' }}>{el.btn && <SubscribeInput />}</div>
+                            <div style={{ marginTop: '20px' }}>
+                                {el.btn && <SubscribeInput mobile={width < 520} />}
+                            </div>
                         </div>
                     ))}
                 </nav>

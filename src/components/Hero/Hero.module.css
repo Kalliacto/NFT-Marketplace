@@ -4,7 +4,6 @@
 .hero__wrap {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    /* grid-template-rows: 1fr 1fr; */
     gap: 30px;
 }
 .hero__info {
@@ -143,7 +142,7 @@
         grid-column: 1 / 2;
     }
 
-    .hero__info2 {
+    .hero__info_two {
         grid-row: 3 / 4;
     }
 }
