@@ -29,7 +29,7 @@ const BannerMushroom = (props) => {
         <div className={s.banner__wrap}>
             <div className={s.banner__wrap_grd}></div>
             <div className={s.banner__content_wrap}>
-                <div className={s.banner__content}>
+                <div className={cn(s.banner__content, 'container')}>
                     <div className={s.banner__content_text}>
                         <div className={s.banner__content_avatar}>
                             <span className={s.banner__content_avatar_img}>
