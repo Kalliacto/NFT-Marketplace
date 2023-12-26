@@ -1,10 +1,13 @@
 import { useEffect, useState } from 'react';
+import { Route, Routes } from 'react-router-dom';
 import './App.css';
 import Footer from './components/Footer/Footer';
 import GoToTopBtn from './components/GoToTopBtn/GoToTopBtn';
 import Header from './components/Header/Header';
-import Hero from './components/Hero/Hero';
 import Homepage from './pages/Homepage';
+import Rainkings from './pages/Rainkings';
+import ConnectWallet from './pages/ConnectWallet';
+import Marketplace from './pages/Marketplace';
 
 function App() {
     const [visible, setVisible] = useState(false);
@@ -23,12 +26,17 @@ function App() {
             window.removeEventListener('scroll', toggleVisible);
         };
     }, []);
+
     return (
         <div className='App'>
             <Header />
             <main>
-                <Hero />
-                <Homepage />
+                <Routes>
+                    <Route path={'/'} element={<Homepage />} />
+                    <Route path={'/rankings'} element={<Rainkings />} />
+                    <Route path={'/connect'} element={<ConnectWallet />} />
+                    <Route path={'/marketplace'} element={<Marketplace />} />
+                </Routes>
                 <GoToTopBtn top={visible} />
             </main>
             <Footer />
