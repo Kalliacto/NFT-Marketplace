@@ -27,8 +27,6 @@ body {
     font-family: 'Work Sans', sans-serif;
     color: var(--main-text-color);
     background-color: var(--background-color);
-    /* font-weight: ; */
-    /* font-size: ; */
 }
 
 a {

@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
-import s from './pagesStyle.module.css';
+import s from './Rainkings.module.css';
 import cn from 'classnames';
-import creators from '../assets/data/topCreators.json';
-import avatars from '../assets/img/avatar';
-import useResize from '../hooks/useResize';
+import creators from '../../assets/data/topCreators.json';
+import avatars from '../../assets/img/avatar';
+import useResize from '../../hooks/useResize';
 
 const Rainkings = (props) => {
     const [filterToggle, setFilterToggle] = useState(1);

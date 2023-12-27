@@ -32,6 +32,7 @@
     line-height: 30.8px;
     padding: 14.5px 30px;
     color: var(--caption-labelText-color);
+    cursor: pointer;
 }
 
 .filter_item_active {

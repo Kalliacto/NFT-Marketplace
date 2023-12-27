@@ -1,0 +1,102 @@
+.marketplace__title_wrap {
+    padding: 80px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.marketplace__title {
+    font-size: 51px;
+    font-family: Work Sans;
+    font-weight: 600;
+    text-transform: capitalize;
+    line-height: 56.1px;
+    margin-bottom: 10px;
+}
+.marketplace__subTitle {
+    font-size: 22px;
+    font-family: Work Sans;
+    font-weight: 400;
+    line-height: 35.2px;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.marketplace__filter_list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.marketplace__filter_item {
+    font-size: 22px;
+    font-family: Work Sans;
+    font-weight: 600;
+    text-transform: capitalize;
+    line-height: 30.8px;
+    padding: 14.5px 30px;
+    color: var(--caption-labelText-color);
+    cursor: pointer;
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    justify-content: center;
+}
+
+.filter_item_active {
+    color: var(--main-text-color);
+    border-bottom: 1px solid var(--caption-labelText-color);
+}
+
+.filter_item_buble {
+    display: flex;
+    align-items: center;
+    background-color: var(--background-secondary-color);
+    padding: 5px 10px;
+    border-radius: 50%;
+    color: var(--main-text-color);
+}
+
+.filter_item_buble_active {
+    background-color: var(--caption-labelText-color);
+}
+.marketplace__cards_wrap {
+    padding: 60px 0 80px 0;
+    background-color: var(--background-secondary-color);
+    /* height: 100%; */
+}
+.marketplace__cards_list {
+    display: grid;
+    gap: 30px;
+}
+
+.desktop {
+    grid-template-columns: repeat(3, 1fr);
+}
+.tablet {
+    grid-template-columns: repeat(2, 1fr);
+}
+.mobile {
+    grid-template-columns: 1fr;
+}
+@media (max-width: 960px) {
+    .marketplace__title_wrap {
+        padding: 60px 0;
+        text-align: left;
+    }
+    .marketplace__title {
+        font-size: 38px;
+        line-height: 45.6px;
+    }
+    .marketplace__subTitle {
+        font-size: 16px;
+        line-height: 22.4px;
+    }
+}
+
+@media (max-width: 580px) {
+    .marketplace__title_wrap {
+        padding: 40px 0;
+    }
+    .marketplace__title {
+        font-size: 28px;
+        line-height: 39.2px;
+    }
+}

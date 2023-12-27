@@ -5,9 +5,9 @@ import Footer from './components/Footer/Footer';
 import GoToTopBtn from './components/GoToTopBtn/GoToTopBtn';
 import Header from './components/Header/Header';
 import Homepage from './pages/Homepage';
-import Rainkings from './pages/Rainkings';
+import Rainkings from './pages/RainkingsPage/Rainkings';
 import ConnectWallet from './pages/ConnectWallet';
-import Marketplace from './pages/Marketplace';
+import Marketplace from './pages/MarketplacePage/Marketplace';
 
 function App() {
     const [visible, setVisible] = useState(false);
@@ -32,7 +32,7 @@ function App() {
             <Header />
             <main>
                 <Routes>
-                    <Route path={'/'} element={<Homepage />} />
+                    <Route path={'/NFTMarketplace/'} element={<Homepage />} />
                     <Route path={'/rankings'} element={<Rainkings />} />
                     <Route path={'/connect'} element={<ConnectWallet />} />
                     <Route path={'/marketplace'} element={<Marketplace />} />
