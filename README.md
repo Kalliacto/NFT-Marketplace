@@ -1,4 +1,4 @@
-### https://kalliacto.github.io/NFTMarketplace
+### https://kalliacto.github.io/NFTMarketplace/
 
 
 # Getting Started with Create React App
