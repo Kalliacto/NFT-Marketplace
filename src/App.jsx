@@ -8,6 +8,7 @@ import Homepage from './pages/Homepage';
 import Rainkings from './pages/RainkingsPage/Rainkings';
 import ConnectWallet from './pages/ConnectWallet';
 import Marketplace from './pages/MarketplacePage/Marketplace';
+import ArtistPage from './pages/ArtistPage/ArtistPage';
 
 function App() {
     const [visible, setVisible] = useState(false);
@@ -36,6 +37,7 @@ function App() {
                     <Route path={'/rankings'} element={<Rainkings />} />
                     <Route path={'/connect'} element={<ConnectWallet />} />
                     <Route path={'/marketplace'} element={<Marketplace />} />
+                    <Route path={'/artistPage/:id'} element={<ArtistPage />} />
                 </Routes>
                 <GoToTopBtn top={visible} />
             </main>

@@ -2,6 +2,7 @@ import React from 'react';
 import s from './CardCreator.module.css';
 import cn from 'classnames';
 import avatars from '../../../assets/img/avatar';
+import { Link } from 'react-router-dom';
 
 const CardCreator = ({ props, width }) => {
     return (
@@ -16,7 +17,9 @@ const CardCreator = ({ props, width }) => {
                 <img src={avatars[props.avatar]} alt='avatar' className={s.card__avatar_img} />
             </div>
             <div className={s.card__info_wrap}>
-                <p className={s.card__info_name}>{props.name}</p>
+                <Link to={`/artistPage/${props.id}`}>
+                    <p className={s.card__info_name}>{props.name}</p>
+                </Link>
                 <p className={s.card__info}>
                     Total Sales: <span className={s.card__info_span}>{props.volume}</span>{' '}
                 </p>

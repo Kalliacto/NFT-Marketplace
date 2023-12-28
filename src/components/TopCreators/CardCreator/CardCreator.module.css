@@ -56,6 +56,11 @@
     font-weight: 600;
     text-transform: capitalize;
     line-height: 30.8px;
+    cursor: pointer;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
 }
 .card__info {
     color: var(--caption-labelText-color);
@@ -76,5 +81,5 @@
     }
 }
 
-@media (max-width: 520px) {
+@media (max-width: 580px) {
 }

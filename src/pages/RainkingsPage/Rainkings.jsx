@@ -4,6 +4,7 @@ import cn from 'classnames';
 import creators from '../../assets/data/topCreators.json';
 import avatars from '../../assets/img/avatar';
 import useResize from '../../hooks/useResize';
+import { Link } from 'react-router-dom';
 
 const Rainkings = (props) => {
     const [filterToggle, setFilterToggle] = useState(1);
@@ -62,14 +63,14 @@ const Rainkings = (props) => {
                         s.filterCreators__list,
                         width > 960
                             ? s.filterCreators__list_desk
-                            : width > 520
+                            : width > 580
                             ? s.filterCreators__list_tabl
                             : s.filterCreators__list_mobil
                     )}
                 >
                     <li className={s.filterCreators__list_item}>#</li>
                     <li style={{ textAlign: 'left' }}>Artist</li>
-                    {width > 520 ? <li className={s.filterCreators__list_item}>Change</li> : ''}
+                    {width > 580 ? <li className={s.filterCreators__list_item}>Change</li> : ''}
                     {width > 960 ? <li className={s.filterCreators__list_item}>NFTs Sold</li> : ''}
                     <li className={s.filterCreators__list_item}>Volume</li>
                 </ul>
@@ -81,7 +82,7 @@ const Rainkings = (props) => {
                                 s.creators__list_item,
                                 width > 960
                                     ? s.creators__list_item_desk
-                                    : width > 520
+                                    : width > 580
                                     ? s.creators__list_item_tabl
                                     : s.creators__list_item_mobil
                             )}
@@ -100,9 +101,11 @@ const Rainkings = (props) => {
                                     alt='avatar'
                                     className={s.creators__item_avatar_img}
                                 />
-                                <span className={s.creators__item_avatar_name}>{el.name}</span>
+                                <Link to={`/artistPage/${el.id}`}>
+                                    <span className={s.creators__item_avatar_name}>{el.name}</span>
+                                </Link>
                             </p>
-                            {width > 520 ? (
+                            {width > 580 ? (
                                 <p className={s.creators__item_change}>{el.change}</p>
                             ) : (
                                 ''

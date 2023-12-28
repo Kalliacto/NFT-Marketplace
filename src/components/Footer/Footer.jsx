@@ -52,7 +52,7 @@ const Footer = () => {
                             </ul>
                             {}
                             <div style={{ marginTop: '20px' }}>
-                                {el.btn && <SubscribeInput mobile={width < 520} />}
+                                {el.btn && <SubscribeInput mobile={width < 580} />}
                             </div>
                         </div>
                     ))}

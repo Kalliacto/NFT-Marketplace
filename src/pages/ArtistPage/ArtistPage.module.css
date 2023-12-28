@@ -1,0 +1,248 @@
+.artist__info {
+    /* padding-bottom: 80px; */
+    position: relative;
+}
+.artist__avatar {
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    top: -70px;
+    padding: 10px;
+}
+.artist__info_block {
+    padding: 90px 0 40px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.artist__title_wrap {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 100px;
+    margin-bottom: 30px;
+}
+
+.artist__title {
+    font-size: 51px;
+    font-family: Work Sans;
+    font-weight: 600;
+    text-transform: capitalize;
+    line-height: 56.1px;
+    text-align: left;
+}
+
+.title_btns {
+    display: flex;
+    gap: 20px;
+}
+.artist__stats {
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+    text-align: left;
+}
+
+.artist__stats_wrap {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+.artist__stat {
+    display: flex;
+    flex-direction: column;
+}
+.stat_num {
+    font-size: 28px;
+    font-family: Space Mono;
+    font-weight: 700;
+    text-transform: capitalize;
+    line-height: 39.2px;
+}
+.stat_txt {
+    font-size: 22px;
+    font-family: Work Sans;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 35.2px;
+}
+
+.artist__bio,
+.artist__links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: left;
+}
+.bio,
+.links {
+    font-size: 22px;
+    font-family: Space Mono;
+    font-weight: 700;
+    text-transform: capitalize;
+    line-height: 35.2px;
+    color: var(--caption-labelText-color);
+}
+.bio_text {
+    font-size: 22px;
+    font-family: Work Sans;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 35.2px;
+}
+
+.links__wrap {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.link_icon {
+    width: 32px;
+    height: 32px;
+}
+.artist__filter_list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.artist__filter_item {
+    font-size: 22px;
+    font-family: Work Sans;
+    font-weight: 600;
+    text-transform: capitalize;
+    line-height: 30.8px;
+    padding: 14.5px 30px;
+    color: var(--caption-labelText-color);
+    cursor: pointer;
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    justify-content: center;
+}
+
+.filter_item_active {
+    color: var(--main-text-color);
+    border-bottom: 1px solid var(--caption-labelText-color);
+}
+
+.filter_item_buble {
+    display: flex;
+    align-items: center;
+    background-color: var(--background-secondary-color);
+    padding: 5px 10px;
+    border-radius: 50%;
+    color: var(--main-text-color);
+}
+
+.filter_item_buble_active {
+    background-color: var(--caption-labelText-color);
+}
+.artist__cards {
+    padding: 80px 0;
+    background-color: var(--background-secondary-color);
+}
+.card__list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 30px;
+}
+.card__wrap {
+    display: grid;
+    border-radius: var(--main-border-radius);
+    background-color: var(--background-color);
+    grid-template-rows: 1fr 0.5fr;
+    max-height: 450px;
+}
+.img__wrap {
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 280px;
+    border-top-left-radius: var(--main-border-radius);
+    border-top-right-radius: var(--main-border-radius);
+}
+.card__img {
+    min-width: 100%;
+    min-height: 100%;
+    flex-shrink: 0;
+    border-top-left-radius: var(--main-border-radius);
+    border-top-right-radius: var(--main-border-radius);
+}
+.card__info {
+    padding: 20px 30px 25px;
+    display: flex;
+    flex-direction: column;
+    /* gap: 25px; */
+}
+.card__title {
+    font-size: 22px;
+    font-family: Work Sans;
+    font-weight: 600;
+    text-transform: capitalize;
+    line-height: 30.8px;
+    margin-bottom: 5px;
+    text-align: left;
+}
+.card__user {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 25px;
+}
+
+.card__avatar {
+    height: 24px;
+    width: 24px;
+}
+
+.card__name {
+    text-align: left;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+}
+
+.card__additional {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 21px;
+}
+.additional__block_1,
+.additional__block_2 {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.additional__block_1 {
+    align-content: flex-start;
+    align-items: flex-start;
+}
+.additional__block_2 {
+    align-content: flex-end;
+    align-items: flex-end;
+}
+
+.block_title {
+    color: var(--caption-labelText-color);
+    font-size: 12px;
+    font-family: Space Mono;
+    font-weight: 400;
+    line-height: 13.2px;
+}
+
+@media (max-width: 960px) {
+    .card__list {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 580px) {
+    .card__list {
+        grid-template-columns: 1fr;
+    }
+}

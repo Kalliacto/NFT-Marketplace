@@ -37,6 +37,10 @@
     margin-bottom: 10px;
 }
 
+.burger__navigation_li {
+    cursor: pointer;
+}
+
 @keyframes burger_animation_on {
     from {
         transform: translateX(200%);

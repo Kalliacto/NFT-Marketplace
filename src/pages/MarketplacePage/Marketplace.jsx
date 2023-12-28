@@ -15,10 +15,10 @@ const Marketplace = (props) => {
         if (width > 960) {
             setCards(cardsInfo);
         }
-        if (width > 520 && width < 960) {
+        if (width > 580 && width < 960) {
             setCards(cardsInfo.slice(0, 8));
         }
-        if (width < 520) {
+        if (width < 580) {
             setCards(cardsInfo.slice(0, 5));
         }
     }, [width]);
@@ -74,7 +74,7 @@ const Marketplace = (props) => {
                 <ul
                     className={cn(
                         s.marketplace__cards_list,
-                        width > 960 ? s.desktop : width > 520 ? s.tablet : s.mobile,
+                        width > 960 ? s.desktop : width > 580 ? s.tablet : s.mobile,
                         'container'
                     )}
                 >

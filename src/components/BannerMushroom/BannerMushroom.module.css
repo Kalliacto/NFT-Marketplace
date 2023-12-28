@@ -106,7 +106,7 @@
     }
 }
 
-@media (max-width: 520px) {
+@media (max-width: 580px) {
     .banner__content_wrap {
         padding: 120px 30px 40px 30px;
     }

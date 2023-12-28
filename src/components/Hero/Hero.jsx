@@ -3,7 +3,7 @@ import s from './Hero.module.css';
 import Button from '../Button/Button';
 import rocket from '../../assets/img/icon/RocketLaunch_white.svg';
 import useResize from '../../hooks/useResize';
-import img from '../../assets/img/imgHomePage.svg';
+import img from '../../assets/img/homepage_img.jpg';
 import avatar from '../../assets/img/avatar/avatar1.png';
 
 const Hero = (props) => {

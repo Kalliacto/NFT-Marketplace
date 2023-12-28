@@ -74,7 +74,7 @@
     }
 }
 
-@media (max-width: 520px) {
+@media (max-width: 580px) {
     .footer__developer {
         flex-direction: column;
         gap: 15px;
