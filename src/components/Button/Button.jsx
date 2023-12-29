@@ -11,7 +11,7 @@ const Button = ({ title, icon = false, pdn = false, bg = false }) => {
                 bg === 'white' && s.btn_white
             )}
         >
-            <img src={icon} alt='user' className={s.btn_icon} />
+            {!!icon && <img src={icon} alt='user' className={s.btn_icon} />}
             <span>{title}</span>
         </button>
     );

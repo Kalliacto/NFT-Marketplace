@@ -9,6 +9,7 @@ import Rainkings from './pages/RainkingsPage/Rainkings';
 import ConnectWallet from './pages/ConnectWallet';
 import Marketplace from './pages/MarketplacePage/Marketplace';
 import ArtistPage from './pages/ArtistPage/ArtistPage';
+import NFTPage from './pages/NFTPage/NFTPage';
 
 function App() {
     const [visible, setVisible] = useState(false);
@@ -38,6 +39,7 @@ function App() {
                     <Route path={'/connect'} element={<ConnectWallet />} />
                     <Route path={'/marketplace'} element={<Marketplace />} />
                     <Route path={'/artistPage/:id'} element={<ArtistPage />} />
+                    <Route path={'/nftProductPage/:id'} element={<NFTPage />} />
                 </Routes>
                 <GoToTopBtn top={visible} />
             </main>
@@ -45,5 +47,6 @@ function App() {
         </div>
     );
 }
+// TODO: Добавить лоадинг на все страницы для плавного появления контента
 
 export default App;

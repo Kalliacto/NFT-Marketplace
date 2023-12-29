@@ -5,6 +5,7 @@ import cn from 'classnames';
 import useResize from '../../hooks/useResize';
 import CardMarketplace from '../../components/CardMarketplace/CardMarketplace';
 import cardsInfo from '../../assets/data/cardsMarketplace.json';
+import { Link } from 'react-router-dom';
 
 const Marketplace = (props) => {
     const [filterToggle, setFilterToggle] = useState(1);
@@ -42,14 +43,16 @@ const Marketplace = (props) => {
                         onClick={() => setFilterToggle(1)}
                     >
                         <span>NFTs</span>
-                        <span
-                            className={cn(
-                                s.filter_item_buble,
-                                filterToggle === 1 ? s.filter_item_buble_active : ''
-                            )}
-                        >
-                            302
-                        </span>
+                        {!!width > 580 && (
+                            <span
+                                className={cn(
+                                    s.filter_item_buble,
+                                    filterToggle === 1 ? s.filter_item_buble_active : ''
+                                )}
+                            >
+                                302
+                            </span>
+                        )}
                     </li>
                     <li
                         className={cn(
@@ -59,34 +62,36 @@ const Marketplace = (props) => {
                         onClick={() => setFilterToggle(2)}
                     >
                         <span>Collections</span>
-                        <span
-                            className={cn(
-                                s.filter_item_buble,
-                                filterToggle === 2 ? s.filter_item_buble_active : ''
-                            )}
-                        >
-                            67
-                        </span>
+                        {!!width > 580 && (
+                            <span
+                                className={cn(
+                                    s.filter_item_buble,
+                                    filterToggle === 2 ? s.filter_item_buble_active : ''
+                                )}
+                            >
+                                67
+                            </span>
+                        )}
                     </li>
                 </ul>
             </div>
             <div className={s.marketplace__cards_wrap}>
-                <ul
-                    className={cn(
-                        s.marketplace__cards_list,
-                        width > 960 ? s.desktop : width > 580 ? s.tablet : s.mobile,
-                        'container'
-                    )}
-                >
+                <div className={cn(s.marketplace__cards_list, 'container')}>
                     {cards.map((el, i) => (
-                        <li key={i} style={{ width: '100%', height: '100%' }}>
+                        <Link
+                            to={`/nftProductPage/${el.id}`}
+                            key={i}
+                            className={s.marketplace__card_container}
+                        >
                             <CardMarketplace {...el} />
-                        </li>
+                        </Link>
                     ))}
-                </ul>
+                </div>
             </div>
         </>
     );
 };
 
 export default Marketplace;
+
+// TODO: поправить баг и изменением экрана на 580- появляется нижний скролл

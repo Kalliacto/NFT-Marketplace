@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import s from './ArtistPage.module.css';
 import imgBanner from '../../assets/img/Image.jpg';
 import { useParams } from 'react-router';
@@ -11,26 +11,31 @@ import avatar from '../../assets/img/avatar/index';
 import Button from '../../components/Button/Button';
 import useResize from '../../hooks/useResize';
 import cardsImg from '../../assets/img/cardsMarketplace';
+import BannerImg from '../../components/BannerImg/BannerImg';
 
 const ArtistPage = (props) => {
     const { id } = useParams();
     const artist = topCreators.find((el) => el.id == id);
     const [filterToggle, setFilterToggle] = useState(1);
     const width = useResize();
-    const cards =
-        width > 1064
-            ? topCreators.slice(0, 9)
-            : width > 580
-            ? topCreators.slice(0, 6)
-            : topCreators.slice(0, 3);
 
-    // const cards = topCreators.slice(0, 9);
+    const [cards, setCards] = useState(topCreators.slice(0, 9));
+
+    useEffect(() => {
+        if (width > 960) {
+            setCards(topCreators.slice(0, 9));
+        }
+        if (width > 580 && width < 960) {
+            setCards(topCreators.slice(0, 6));
+        }
+        if (width < 580) {
+            setCards(topCreators.slice(0, 3));
+        }
+    }, [width]);
 
     return (
         <div>
-            <div className={s.banner_wrap}>
-                <img src={imgBanner} alt='banner_img' className={s.banner_img} />
-            </div>
+            <BannerImg img={imgBanner} />
             <div className={cn(s.artist__info, 'container')}>
                 <div className={s.artist__avatar}>
                     <img src={avatar[artist.avatar]} alt='artist_avatar' className={s.avatar} />
@@ -82,15 +87,17 @@ const ArtistPage = (props) => {
                         )}
                         onClick={() => setFilterToggle(1)}
                     >
-                        <span>Created</span>
-                        <span
-                            className={cn(
-                                s.filter_item_buble,
-                                filterToggle === 1 ? s.filter_item_buble_active : ''
-                            )}
-                        >
-                            302
-                        </span>
+                        <span className={s.filter_item_span}>Created</span>
+                        {!!width > 580 && (
+                            <span
+                                className={cn(
+                                    s.filter_item_buble,
+                                    filterToggle === 1 ? s.filter_item_buble_active : ''
+                                )}
+                            >
+                                302
+                            </span>
+                        )}
                     </li>
                     <li
                         className={cn(
@@ -99,15 +106,17 @@ const ArtistPage = (props) => {
                         )}
                         onClick={() => setFilterToggle(2)}
                     >
-                        <span>Owned</span>
-                        <span
-                            className={cn(
-                                s.filter_item_buble,
-                                filterToggle === 2 ? s.filter_item_buble_active : ''
-                            )}
-                        >
-                            67
-                        </span>
+                        <span className={s.filter_item_span}>Owned</span>
+                        {!!width > 580 && (
+                            <span
+                                className={cn(
+                                    s.filter_item_buble,
+                                    filterToggle === 2 ? s.filter_item_buble_active : ''
+                                )}
+                            >
+                                67
+                            </span>
+                        )}
                     </li>
                     <li
                         className={cn(
@@ -116,21 +125,23 @@ const ArtistPage = (props) => {
                         )}
                         onClick={() => setFilterToggle(3)}
                     >
-                        <span>Collection</span>
-                        <span
-                            className={cn(
-                                s.filter_item_buble,
-                                filterToggle === 3 ? s.filter_item_buble_active : ''
-                            )}
-                        >
-                            4
-                        </span>
+                        <span className={s.filter_item_span}>Collection</span>
+                        {!!width > 580 && (
+                            <span
+                                className={cn(
+                                    s.filter_item_buble,
+                                    filterToggle === 3 ? s.filter_item_buble_active : ''
+                                )}
+                            >
+                                4
+                            </span>
+                        )}
                     </li>
                 </ul>
             </div>
             <div className={s.artist__cards}>
                 <div className={cn('container', s.card__list)}>
-                    {cards.map((el, i) => (
+                    {cards.slice(0, 9).map((el, i) => (
                         <div className={s.card__wrap} key={i}>
                             <div className={s.img__wrap}>
                                 <img
@@ -167,3 +178,5 @@ const ArtistPage = (props) => {
 };
 
 export default ArtistPage;
+
+// TODO: поправить баг и изменением экрана на 580- появляется нижний скролл

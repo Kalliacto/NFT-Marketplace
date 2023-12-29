@@ -236,12 +236,37 @@
 }
 
 @media (max-width: 960px) {
+    .artist__info_block {
+        padding: 70px 0 30px 0;
+    }
+    .artist__title_wrap {
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .artist__title {
+        font-size: 38px;
+        line-height: 45.6px;
+    }
     .card__list {
         grid-template-columns: repeat(2, 1fr);
+    }
+    .filter_item_span {
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 22.4px;
     }
 }
 
 @media (max-width: 580px) {
+    .artist__title {
+        font-size: 28px;
+        line-height: 39.2px;
+    }
+    .title_btns {
+        flex-direction: column;
+        width: 100%;
+    }
     .card__list {
         grid-template-columns: 1fr;
     }

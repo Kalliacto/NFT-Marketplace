@@ -5,7 +5,8 @@
         "avatar": "avatar12",
         "nickname": "Shroomie",
         "price": "1.23 ETH",
-        "bid": "2.33 wETH"
+        "bid": "2.33 wETH",
+        "id": 1
     },
     {
         "img": "pic2",
@@ -13,7 +14,8 @@
         "avatar": "avatar16",
         "nickname": "BeKind2Robots",
         "price": "0.63 ETH",
-        "bid": "0.23 wETH"
+        "bid": "0.23 wETH",
+        "id": 2
     },
     {
         "img": "pic3",
@@ -21,7 +23,8 @@
         "avatar": "avatar15",
         "nickname": "BeKind2Robots",
         "price": "4.63 ETH",
-        "bid": "6.33 wETH"
+        "bid": "6.33 wETH",
+        "id": 3
     },
     {
         "img": "pic4",
@@ -29,7 +32,8 @@
         "avatar": "avatar9",
         "nickname": "Ice Ape Club",
         "price": "1.63 ETH",
-        "bid": "0.33 wETH"
+        "bid": "0.33 wETH",
+        "id": 4
     },
     {
         "img": "pic5",
@@ -37,7 +41,8 @@
         "avatar": "avatar4",
         "nickname": "Mr Fox",
         "price": "1.63 ETH",
-        "bid": "2.33 wETH"
+        "bid": "2.33 wETH",
+        "id": 5
     },
     {
         "img": "pic6",
@@ -45,7 +50,8 @@
         "avatar": "avatar10",
         "nickname": "Keepitreal",
         "price": "7.63 ETH",
-        "bid": "6.33 wETH"
+        "bid": "6.33 wETH",
+        "id": 6
     },
     {
         "img": "pic7",
@@ -53,7 +59,8 @@
         "avatar": "avatar14",
         "nickname": "Robotica",
         "price": "3.63 ETH",
-        "bid": "0.73 wETH"
+        "bid": "0.73 wETH",
+        "id": 7
     },
     {
         "img": "pic8",
@@ -61,7 +68,8 @@
         "avatar": "avatar13",
         "nickname": "MoonDancer",
         "price": "1.63 ETH",
-        "bid": "3.45 wETH"
+        "bid": "3.45 wETH",
+        "id": 8
     },
     {
         "img": "pic9",
@@ -69,7 +77,8 @@
         "avatar": "avatar8",
         "nickname": "NebulaKid",
         "price": "2.63 ETH",
-        "bid": "0.50 wETH"
+        "bid": "0.50 wETH",
+        "id": 9
     },
     {
         "img": "pic10",
@@ -77,7 +86,8 @@
         "avatar": "avatar6",
         "nickname": "Catch 22",
         "price": "5.63 ETH",
-        "bid": "3.33 wETH"
+        "bid": "3.33 wETH",
+        "id": 10
     },
     {
         "img": "pic11",
@@ -85,7 +95,8 @@
         "avatar": "avatar7",
         "nickname": "Animakid",
         "price": "6.63 ETH",
-        "bid": "2.03 wETH"
+        "bid": "2.03 wETH",
+        "id": 11
     },
     {
         "img": "pic12",
@@ -93,6 +104,7 @@
         "avatar": "avatar17",
         "nickname": "PuppyPower",
         "price": "4.63 ETH",
-        "bid": "3.33 wETH"
+        "bid": "3.33 wETH",
+        "id": 12
     }
 ]
