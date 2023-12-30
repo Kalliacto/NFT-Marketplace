@@ -11,6 +11,16 @@ import pic10 from './marketplace_img10.png';
 import pic11 from './marketplace_img11.png';
 import pic12 from './marketplace_img12.png';
 
+import pic13 from './NFT_Page1.jpg';
+import pic14 from './NFT_Page3.png';
+import pic15 from './card_dog.png';
+import pic16 from './NFT_Page4.png';
+import pic17 from './NFT_Page5.jpg';
+import pic18 from './NFT_Page6.jpg';
+import pic19 from './NFT_Page7.jpg';
+import pic20 from './NFT_Page8.jpg';
+import pic21 from './NFT_Page9.jpg';
+
 const imgCards = {
     pic1,
     pic2,
@@ -24,6 +34,15 @@ const imgCards = {
     pic10,
     pic11,
     pic12,
+    pic13,
+    pic14,
+    pic15,
+    pic16,
+    pic17,
+    pic18,
+    pic19,
+    pic20,
+    pic21,
 };
 
 export default imgCards;

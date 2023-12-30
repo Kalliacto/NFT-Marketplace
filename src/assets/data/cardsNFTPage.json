@@ -1,0 +1,65 @@
+[
+    {
+        "img": "pic13",
+        "title": "Foxy Life",
+        "price": "1.23 ETH",
+        "bid": "0.73 wETH",
+        "id": 1
+    },
+    {
+        "img": "pic14",
+        "title": "Cat from future",
+        "price": "1.23 ETH",
+        "bid": "2.53 wETH",
+        "id": 1
+    },
+    {
+        "img": "pic15",
+        "title": "Psycho Dog",
+        "price": "1.23 ETH",
+        "bid": "5.00 wETH",
+        "id": 1
+    },
+    {
+        "img": "pic16",
+        "title": "Designer Bear",
+        "price": "1.23 ETH",
+        "bid": "4.03 wETH",
+        "id": 1
+    },
+    {
+        "img": "pic17",
+        "title": "Dancing Robot 0375",
+        "price": "1.23 ETH",
+        "bid": "0.03 wETH",
+        "id": 1
+    },
+    {
+        "img": "pic18",
+        "title": "Dancing Robot 0356",
+        "price": "1.23 ETH",
+        "bid": "2.03 wETH",
+        "id": 1
+    },
+    {
+        "img": "pic19",
+        "title": "Dancing Robot 0321",
+        "price": "1.23 ETH",
+        "bid": "1.33 wETH",
+        "id": 1
+    },
+    {
+        "img": "pic20",
+        "title": "Dancing Robot 0512",
+        "price": "1.23 ETH",
+        "bid": "0.33 wETH",
+        "id": 1
+    },
+    {
+        "img": "pic21",
+        "title": "Dancing Robot 0024",
+        "price": "1.23 ETH",
+        "bid": "0.33 wETH",
+        "id": 1
+    }
+]
