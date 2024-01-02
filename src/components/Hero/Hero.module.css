@@ -84,6 +84,7 @@
 @media (max-width: 960px) {
     .hero {
         background: linear-gradient(101deg, #a259ff 13.57%, #ff6250 97.65%);
+        padding: 60px 0;
     }
     .hero__info_title {
         font-size: 38px;
@@ -104,6 +105,9 @@
 }
 
 @media (max-width: 750px) {
+    .hero {
+        padding: 40px 0;
+    }
     .hero__info_title {
         font-size: 28px;
     }

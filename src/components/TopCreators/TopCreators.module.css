@@ -57,6 +57,9 @@
 }
 
 @media (max-width: 960px) {
+    .creators {
+        padding: 60px 0;
+    }
     .creators__title {
         font-size: 28px;
     }
@@ -70,6 +73,9 @@
 }
 
 @media (max-width: 750px) {
+    .creators {
+        padding: 40px 0;
+    }
     .creators__wrap {
         grid-template-columns: 1fr;
         gap: 40px;

@@ -43,7 +43,7 @@ const Marketplace = (props) => {
                         onClick={() => setFilterToggle(1)}
                     >
                         <span>NFTs</span>
-                        {!!width > 580 && (
+                        {width > 580 && (
                             <span
                                 className={cn(
                                     s.filter_item_buble,
@@ -62,7 +62,7 @@ const Marketplace = (props) => {
                         onClick={() => setFilterToggle(2)}
                     >
                         <span>Collections</span>
-                        {!!width > 580 && (
+                        {width > 580 && (
                             <span
                                 className={cn(
                                     s.filter_item_buble,

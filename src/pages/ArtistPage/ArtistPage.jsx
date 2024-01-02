@@ -88,7 +88,7 @@ const ArtistPage = (props) => {
                         onClick={() => setFilterToggle(1)}
                     >
                         <span className={s.filter_item_span}>Created</span>
-                        {!!width > 580 && (
+                        {width > 580 && (
                             <span
                                 className={cn(
                                     s.filter_item_buble,
@@ -107,7 +107,7 @@ const ArtistPage = (props) => {
                         onClick={() => setFilterToggle(2)}
                     >
                         <span className={s.filter_item_span}>Owned</span>
-                        {!!width > 580 && (
+                        {width > 580 && (
                             <span
                                 className={cn(
                                     s.filter_item_buble,
@@ -126,7 +126,7 @@ const ArtistPage = (props) => {
                         onClick={() => setFilterToggle(3)}
                     >
                         <span className={s.filter_item_span}>Collection</span>
-                        {!!width > 580 && (
+                        {width > 580 && (
                             <span
                                 className={cn(
                                     s.filter_item_buble,
