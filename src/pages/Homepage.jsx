@@ -6,6 +6,7 @@ import BannerMushroom from '../components/BannerMushroom/BannerMushroom';
 import TopCreators from '../components/TopCreators/TopCreators';
 import Hero from '../components/Hero/Hero';
 import BrowseCategories from '../components/BrowseCategories/BrowseCategories';
+import DiscoverMore from '../components/DiscoverMore/DiscoverMore';
 
 const Homepage = (props) => {
     return (
@@ -13,6 +14,7 @@ const Homepage = (props) => {
             <Hero />
             <TopCreators hp={true} />
             <BrowseCategories />
+            <DiscoverMore />
             <BannerMushroom />
             <HowItWorks />
             <SubscribeWidget icon={mail} />

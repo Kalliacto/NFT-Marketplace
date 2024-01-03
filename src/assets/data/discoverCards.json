@@ -1,0 +1,26 @@
+[
+    {
+        "img": "pic22",
+        "title": "Distant Galaxy",
+        "avatar": "avatar14",
+        "name": "MoonDancer",
+        "price": "1.23 ETH",
+        "bid": "0.73 wETH"
+    },
+    {
+        "img": "pic23",
+        "title": "Life On Edena",
+        "avatar": "avatar13",
+        "name": "NebulaKid",
+        "price": "1.23 ETH",
+        "bid": "2.53 wETH"
+    },
+    {
+        "img": "pic24",
+        "title": "AstroFiction",
+        "avatar": "avatar4",
+        "name": "Spaceone",
+        "price": "1.23 ETH",
+        "bid": "5.00 wETH"
+    }
+]
