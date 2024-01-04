@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/NFTMarketplace/static/css/main.9402590d.css",
-    "main.js": "/NFTMarketplace/static/js/main.d97a1110.js",
+    "main.css": "/NFTMarketplace/static/css/main.3224fe6c.css",
+    "main.js": "/NFTMarketplace/static/js/main.734e48c7.js",
     "static/media/bg_mushrooms.png": "/NFTMarketplace/static/media/bg_mushrooms.ae752222ea0fd1b4990a.png",
     "static/media/NFT_page.jpg": "/NFTMarketplace/static/media/NFT_page.f70cc1c2f2f01b8030b4.jpg",
     "static/media/Image.jpg": "/NFTMarketplace/static/media/Image.0d570a1330549dccd7f1.jpg",
@@ -21,6 +21,7 @@
     "static/media/Photo.jpg": "/NFTMarketplace/static/media/Photo.c11d891024e56c6e5853.jpg",
     "static/media/marketplace_img8.png": "/NFTMarketplace/static/media/marketplace_img8.0701871f0dd2bb43ee3b.png",
     "static/media/marketplace_img6.png": "/NFTMarketplace/static/media/marketplace_img6.213843bfa25d12c2ef17.png",
+    "static/media/card_robot1.png": "/NFTMarketplace/static/media/card_robot1.5c649b2581f66f1dcff6.png",
     "static/media/marketplace_img9.png": "/NFTMarketplace/static/media/marketplace_img9.2b2acb1361b425269e17.png",
     "static/media/marketplace_img10.png": "/NFTMarketplace/static/media/marketplace_img10.449449fc4ea4f8574e98.png",
     "static/media/marketplace_img2.png": "/NFTMarketplace/static/media/marketplace_img2.ea159b20a2c1ccafa6e9.png",
@@ -54,6 +55,10 @@
     "static/media/avatar11.png": "/NFTMarketplace/static/media/avatar11.2ffa2f1461a770ed3bf6.png",
     "static/media/avatar6.png": "/NFTMarketplace/static/media/avatar6.dbe146603f86735f61ee.png",
     "static/media/avatar10.png": "/NFTMarketplace/static/media/avatar10.0eeab65e398db854fbff.png",
+    "static/media/card_mushroom3.png": "/NFTMarketplace/static/media/card_mushroom3.9c126b7acb4f3d770223.png",
+    "static/media/card_mushroom2.png": "/NFTMarketplace/static/media/card_mushroom2.2d21ef3f98c108156139.png",
+    "static/media/card_robot2.png": "/NFTMarketplace/static/media/card_robot2.5dcf474d30012b7ea12b.png",
+    "static/media/card_robot3.png": "/NFTMarketplace/static/media/card_robot3.dd757ebbec92be33ebb7.png",
     "static/media/DiscordLogo.svg": "/NFTMarketplace/static/media/DiscordLogo.8177c8c1388b94d363f1f6ba613f0c7e.svg",
     "static/media/YoutubeLogo.svg": "/NFTMarketplace/static/media/YoutubeLogo.b7214031954d3ff9a9f01e7e90f9a25a.svg",
     "static/media/RocketLaunch.svg": "/NFTMarketplace/static/media/RocketLaunch.4984fd35aefa3fc9a2b659ace3cfb19e.svg",
@@ -72,11 +77,11 @@
     "static/media/upArrow.svg": "/NFTMarketplace/static/media/upArrow.22bebfa8fc3f16c2818dbadaa2723762.svg",
     "static/media/Plus.svg": "/NFTMarketplace/static/media/Plus.a2a9f687ae3b63248d8af9b804ee9a90.svg",
     "static/media/cross.svg": "/NFTMarketplace/static/media/cross.3fa5044abaa4a523ed8ce142480d7cfa.svg",
-    "main.9402590d.css.map": "/NFTMarketplace/static/css/main.9402590d.css.map",
-    "main.d97a1110.js.map": "/NFTMarketplace/static/js/main.d97a1110.js.map"
+    "main.3224fe6c.css.map": "/NFTMarketplace/static/css/main.3224fe6c.css.map",
+    "main.734e48c7.js.map": "/NFTMarketplace/static/js/main.734e48c7.js.map"
   },
   "entrypoints": [
-    "static/css/main.9402590d.css",
-    "static/js/main.d97a1110.js"
+    "static/css/main.3224fe6c.css",
+    "static/js/main.734e48c7.js"
   ]
 }
