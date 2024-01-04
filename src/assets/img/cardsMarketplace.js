@@ -22,6 +22,12 @@ import pic21 from './NFT_Page9.jpg';
 import pic22 from './discover_img1.png';
 import pic23 from './discover_img2.png';
 import pic24 from './discover_img3.png';
+import pic25 from './card_mushroom1.png';
+import pic26 from './card_mushroom2.png';
+import pic27 from './card_mushroom3.png';
+import pic28 from './card_robot1.png';
+import pic29 from './card_robot2.png';
+import pic30 from './card_robot3.png';
 
 const imgCards = {
     pic1,
@@ -48,6 +54,12 @@ const imgCards = {
     pic22,
     pic23,
     pic24,
+    pic25,
+    pic26,
+    pic27,
+    pic28,
+    pic29,
+    pic30,
 };
 
 export default imgCards;

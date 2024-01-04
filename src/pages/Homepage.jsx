@@ -7,11 +7,13 @@ import TopCreators from '../components/TopCreators/TopCreators';
 import Hero from '../components/Hero/Hero';
 import BrowseCategories from '../components/BrowseCategories/BrowseCategories';
 import DiscoverMore from '../components/DiscoverMore/DiscoverMore';
+import CollectionBlock from '../components/CollectionBlock/CollectionBlock';
 
 const Homepage = (props) => {
     return (
         <div>
             <Hero />
+            <CollectionBlock />
             <TopCreators hp={true} />
             <BrowseCategories />
             <DiscoverMore />

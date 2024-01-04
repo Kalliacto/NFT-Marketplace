@@ -33,12 +33,20 @@
 .hero__info_card {
     display: flex;
     flex-direction: column;
+    text-align: left;
 }
 .info__card_item1 {
     font-size: 28px;
+    font-weight: 700;
+    text-transform: capitalize;
+    line-height: 39.2px;
 }
 .info__card_item2 {
     font-size: 23.99px;
+    font-family: Work Sans;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 38.38px;
 }
 
 .hero__image {
@@ -98,9 +106,11 @@
 
     .info__card_item1 {
         font-size: 22px;
+        line-height: 35.2px;
     }
     .info__card_item2 {
         font-size: 16px;
+        line-height: 22.4px;
     }
 }
 
@@ -148,5 +158,8 @@
 
     .hero__info_two {
         grid-row: 3 / 4;
+    }
+    .hero__info_cards {
+        justify-items: center;
     }
 }
