@@ -5,9 +5,8 @@
 * CSS (flex, grid)
 * JavaScript
 * Так же для новигации по страницам использована библиотека react-router6 
-<br/>
- [Посмотреть результат можно здесь....](https://kalliacto.github.io/NFTMarketplace/)
-<br/>
+
+ [Посмотреть результат можно здесь....](https://kalliacto.github.io/NFTMarketplace/)<br/>
 
   ## Скриншоты приложения:
   
