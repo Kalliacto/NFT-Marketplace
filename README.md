@@ -1,9 +1,9 @@
 ### NTF Marketplace 
 
 Адаптивная верстка многостраничного сайта [по макету Figma](https://www.figma.com/file/ksxZPlNGN7AeQuypLIJEIx/NFT-Marketplace-(Copy)?node-id=1996%3A13619&mode=dev), реализована с помощью 
+* библиотека JavaScript React 18
 * HTML
 * CSS (flex, grid)
-* JavaScript
 * Так же для новигации по страницам использована библиотека react-router6 
 
  [Посмотреть результат можно здесь....](https://kalliacto.github.io/NFTMarketplace/)<br/>
