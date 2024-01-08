@@ -1,73 +1,31 @@
-### https://kalliacto.github.io/NFTMarketplace/
+### NTF Marketplace 
+
+Адаптивная верстка многостраничного сайта [по макету Figma](https://www.figma.com/file/ksxZPlNGN7AeQuypLIJEIx/NFT-Marketplace-(Copy)?node-id=1996%3A13619&mode=dev), реализована с помощью 
+* HTML
+* CSS (flex, grid)
+* JavaScript
+* Так же для новигации по страницам использована библиотека react-router6 
+<br/>
+ [Посмотреть результат можно здесь....](https://kalliacto.github.io/NFTMarketplace/)
+<br/>
+
+  ## Скриншоты приложения:
+  
+- Домашняя страница <br/>
+![image](https://github.com/Kalliacto/NFTMarketplace/assets/98468178/1c94a40c-d5f5-483b-827d-4bcde5538791)<br/>
+![image](https://github.com/Kalliacto/NFTMarketplace/assets/98468178/68c345bc-4f9a-4746-9f21-f6e25cffeaae)<br/>
+![image](https://github.com/Kalliacto/NFTMarketplace/assets/98468178/ce89da5e-8872-4a65-a899-dc5794f27c20)<br/>
+- Marketplace страница <br/>
+![image](https://github.com/Kalliacto/NFTMarketplace/assets/98468178/4e33cf7a-43a1-472f-9565-7be83c035eb4)<br/>
+- ArtistPage страница <br/>
+![image](https://github.com/Kalliacto/NFTMarketplace/assets/98468178/dba4d16c-ff2e-443e-931a-37d4753e56f2)<br/>
+- Rainkings страница <br/>
+![image](https://github.com/Kalliacto/NFTMarketplace/assets/98468178/154b74b1-b21e-4fb4-bd0f-71e461e8a070)<br/>
+- Connect & Wallet страница <br/>
+![image](https://github.com/Kalliacto/NFTMarketplace/assets/98468178/b93191b9-8455-408a-ba41-86386a903ebf)<br/>
+![image](https://github.com/Kalliacto/NFTMarketplace/assets/98468178/6f25f4cb-6b1c-4a5e-ace0-42445eae61ff)<br/>
 
 
-# Getting Started with Create React App
+  
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
