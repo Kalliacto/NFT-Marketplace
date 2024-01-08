@@ -15,7 +15,7 @@ const Header = () => {
         <header className={s.header}>
             <div className={s.header__container}>
                 <div className={s.header__logo_wrap}>
-                    <NavLink to={'/'}>
+                    <NavLink to={'/NFTMarketplace/'}>
                         <img src={logo} className='header__logo' title='На главную' alt='logo' />
                     </NavLink>
                 </div>

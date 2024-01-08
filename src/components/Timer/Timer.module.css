@@ -1,0 +1,38 @@
+.timer__wrap {
+    border-radius: var(--main-border-radius);
+    background: rgba(59, 59, 59, 0.5);
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    align-self: flex-end;
+    text-align: left;
+}
+
+.timer_title {
+    font-size: 12px;
+    line-height: 13.2px;
+    margin-bottom: 10px;
+}
+.timer_block {
+    display: flex;
+    gap: 10px;
+    font-size: 38px;
+    font-weight: 700;
+    text-transform: capitalize;
+    line-height: 45.6px;
+}
+.timer {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.timer_text {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 13.2px;
+}
+
+.timer_btn {
+    margin-top: 30px;
+}

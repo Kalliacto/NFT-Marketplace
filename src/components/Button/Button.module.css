@@ -24,6 +24,17 @@
     border: 1px solid var(--purple-btn-color);
 }
 
+.btn_grd {
+    background: linear-gradient(101deg, #a259ff 0%, #c25cc2 35%, #ff6250 100%);
+}
+.btn_white {
+    background: var(--main-text-color);
+    color: var(--background-color);
+    font-weight: 600;
+    line-height: 22.4px;
+    border: none;
+}
+
 .btn_icon {
     height: 20px;
     width: 20px;

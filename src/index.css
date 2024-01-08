@@ -27,8 +27,6 @@ body {
     font-family: 'Work Sans', sans-serif;
     color: var(--main-text-color);
     background-color: var(--background-color);
-    /* font-weight: ; */
-    /* font-size: ; */
 }
 
 a {
@@ -64,7 +62,7 @@ svg *[fill] {
 @media (max-width: 960px) {
 }
  Мобильные устройства */
-/* @media (max-width: 520px) { */
+/* @media (max-width: 580px) { */
 /* } */
 /* @media (max-width: 380px) {
 }   */

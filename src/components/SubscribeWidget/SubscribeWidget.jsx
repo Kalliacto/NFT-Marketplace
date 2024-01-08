@@ -2,9 +2,12 @@ import React from 'react';
 import s from './SubscribeWidget.module.css';
 import img from '../../assets/img/Photo.jpg';
 import SubscribeInput from '../Form/SubscribeInput';
+import useResize from '../../hooks/useResize';
 // import mail from '../../assets/img/EnvelopeSimple.svg';
 
 const SubscribeWidget = ({ icon = false }) => {
+    const width = useResize();
+
     return (
         <div className={s.subscribe}>
             <div className='container'>
@@ -19,7 +22,7 @@ const SubscribeWidget = ({ icon = false }) => {
                                 Get exclusive promotions & updates straight to your inbox.
                             </p>
                         </div>
-                        <SubscribeInput icon={icon} />
+                        <SubscribeInput icon={icon} mobile={width < 960} />
                     </div>
                 </div>
             </div>

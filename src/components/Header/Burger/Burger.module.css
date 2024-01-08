@@ -21,12 +21,13 @@
     background: var(--background-color);
     padding: 30px;
     border: solid 1px var(--background-secondary-color);
-    animation: 0.4s burger_animation_off forwards;
+    display: none;
+    /* animation: 0.4s burger_animation_off forwards; */
 }
 
 .active {
     display: flex;
-    animation: 0.4s burger_animation_on;
+    /* animation: 0.4s burger_animation_on; */
 }
 
 .burger__navigation_list {
@@ -37,7 +38,11 @@
     margin-bottom: 10px;
 }
 
-@keyframes burger_animation_on {
+.burger__navigation_li {
+    cursor: pointer;
+}
+
+/* @keyframes burger_animation_on {
     from {
         transform: translateX(200%);
         display: none;
@@ -57,4 +62,4 @@
         transform: translateX(200%);
         display: none;
     }
-}
+} */

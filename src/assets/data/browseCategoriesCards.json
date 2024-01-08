@@ -1,0 +1,42 @@
+[
+    {
+        "title": "Art",
+        "img": "paintBrush",
+        "icon": "paintBrushIcon"
+    },
+    {
+        "title": "Collectibles",
+        "img": "swatches",
+        "icon": "swatchesIcon"
+    },
+    {
+        "title": "Music",
+        "img": "musicNotes",
+        "icon": "musicNotesIcon"
+    },
+    {
+        "title": "Photography",
+        "img": "camera",
+        "icon": "cameraIcon"
+    },
+    {
+        "title": "Video",
+        "img": "videoCamera",
+        "icon": "videoCameraIcon"
+    },
+    {
+        "title": "Utility",
+        "img": "magicWand",
+        "icon": "magicWandIcon"
+    },
+    {
+        "title": "Sport",
+        "img": "basketball",
+        "icon": "basketballIcon"
+    },
+    {
+        "title": "Virtual Worlds",
+        "img": "planet",
+        "icon": "planetIcon"
+    }
+]

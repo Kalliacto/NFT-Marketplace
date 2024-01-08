@@ -25,6 +25,7 @@
 }
 .header__navigation_li {
     padding: 12px 20px;
+    white-space: nowrap;
 }
 
 @media (max-width: 960px) {
@@ -32,6 +33,6 @@
         padding: 20px;
     }
     .header__logo_wrap {
-        max-width: 149px;
+        max-width: 180px;
     }
 }

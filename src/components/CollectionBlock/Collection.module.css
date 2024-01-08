@@ -1,0 +1,128 @@
+.collection__block {
+    padding: 80px 0;
+    text-align: left;
+}
+.collection__title {
+    font-size: 38px;
+    font-family: Work Sans;
+    font-weight: 600;
+    text-transform: capitalize;
+    line-height: 45.6px;
+    margin-bottom: 10px;
+}
+.collection__subTitle {
+    font-size: 22px;
+    font-family: Work Sans;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 35.2px;
+    margin-bottom: 60px;
+}
+.collection__cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.card__info {
+    margin-top: 15px;
+}
+.card__title {
+    font-size: 22px;
+    font-family: Work Sans;
+    font-weight: 600;
+    text-transform: capitalize;
+    line-height: 30.8px;
+    margin-bottom: 10px;
+}
+.card__author {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.author_avatar {
+    width: 24px;
+    height: 24px;
+}
+.author_name {
+    font-size: 16px;
+    font-family: Work Sans;
+    font-weight: 400;
+    line-height: 22.4px;
+}
+.card__wrap {
+    max-width: 330px;
+    height: auto;
+}
+
+.card__img_tree {
+    display: flex;
+    gap: 15px;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.card__img_big {
+    margin-bottom: 15px;
+    border-radius: var(--main-border-radius);
+    max-width: 330px;
+    max-height: 330px;
+}
+
+.img {
+    max-width: 150px;
+    max-height: 150px;
+    min-width: 80px;
+    min-height: 80px;
+    border-radius: var(--main-border-radius);
+}
+.img_one {
+}
+.img_two {
+}
+.img_purple {
+    background-color: var(--purple-btn-color);
+    max-width: 150px;
+    max-height: 150px;
+    min-width: 80px;
+    min-height: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    font-family: Space Mono;
+    font-weight: 700;
+    text-transform: capitalize;
+    line-height: 35.2px;
+    padding: 30px;
+}
+
+@media (max-width: 960px) {
+    .collection__block {
+        padding: 60px 0;
+    }
+    .collection__title {
+        font-size: 28px;
+        line-height: 39.2px;
+    }
+    .collection__subTitle {
+        font-size: 16px;
+        line-height: 22.4px;
+        margin-bottom: 40px;
+    }
+    .collection__cards {
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+    }
+}
+
+@media (max-width: 680px) {
+    .collection__block {
+        padding: 40px 0;
+    }
+    .collection__cards {
+        grid-template-columns: 1fr;
+    }
+}
